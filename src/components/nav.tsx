@@ -7,7 +7,7 @@ import { navItem } from "@/constant";
 const Nav = () => {
   return (
     <div className="shadow-lg shadow-green-100 rounded ">
-      <div className="flex justify-between p-[13px] h-[100px]  fixed top-0 left-0 w-full  bg-opacity-80 z-50     bg-slate-300 position ">
+      <div className="flex justify-between p-[13px] h-[100px]  fixed top-0 left-0 w-full  bg-opacity-80 z-50   bg-slate-300 position ">
         <Image
           src={"/logo.png"}
           alt="logo"

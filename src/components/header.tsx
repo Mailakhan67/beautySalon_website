@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <div className='mt-14 h-full '>
       <div className='text-center mt-10'>
-        <h1 className='font-bold text-6xl font-serif leading-normal'>Bridale Makeup</h1>
+        <h1 className='font-bold text-6xl font-serif leading-normal'>Bride Makeup</h1>
         <p className='mt-10 text-justify text-[#000000] px-24  leading-normal text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis eveniet temporibus perferendis cupiditate ex recusandae minus sequi, eligendi neque quis fugiat reprehenderit libero voluptate culpa vitae dignissimos consectetur asperiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis eveniet temporibus perferendis cupiditate ex recusandae minus sequi, eligendi neque quis fugiat reprehenderit libero voluptate culpa vitae dignissimos consectetur asperiores. </p>
 
-        <div className='mt-10 grid grid-cols-4 gap-4'>
-       <Image src={'/brideimage1.jpeg'} alt='Bride' width={300} height={200} className='rounded-md shadow-lg shadow-gray-300 hover:bg-slate-100'/> 
+        <div className='mt-10 grid grid-cols-4 gap-4 '>
+       <Image src={'/brideimage1.jpeg'} alt='Bride' width={300} height={200} className='rounded-md shadow-lg shadow-gray-300 hover:bg-slate-100 hover:scale-75 hover:z-50'/> 
        <Image src={'/brideimage2.jpeg'} alt='Bride' width={350} height={300} className='rounded-md shadow-lg shadow-gray-300'/> 
        <Image src={'/brideimage3.jpeg'} alt='Bride' width={330} height={250} className='rounded-md shadow-lg shadow-gray-300'/> 
        <Image src={'/brideimage4.jpeg'} alt='Bride' width={350} height={300} className='rounded-md shadow-lg shadow-gray-300'/> 
@@ -32,7 +32,7 @@ const Header = () => {
    
 
      
-
+<div className='h-32'></div>
     </div>
   )
 }

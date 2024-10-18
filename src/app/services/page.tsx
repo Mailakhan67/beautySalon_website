@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card = () => {
   return (
-    <div className="scroll-smooth mt-40">
+    <div className="scroll-smooth mt-40 h-full">
       <div className="text-center font-bold text-6xl p-16" id="Services">
         Our Services
       </div>
@@ -127,6 +127,7 @@ const Card = () => {
         </div>
         {/* card 6 end */}
       </div>
+      <div className="h-36"></div>
     </div>
   );
 };

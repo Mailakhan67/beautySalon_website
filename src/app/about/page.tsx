@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex justify-between h-screen shadow-lg shadow-gray-200 bg-slate-100">
+    <div className="flex justify-between h-screen bg-slate-100">
       <div className=" h-[700px] flex justify-between mt-32">
         <Image
           src={"/aboutimage.jpeg"}
@@ -36,6 +36,7 @@ const About = () => {
           </button>
         </div>
       </div>
+      <div className="h-10"></div>
     </div>
   );
 };
