@@ -16,8 +16,8 @@ const Nav = () => {
         />
         <div className="flex ">
           <ul className="flex justify-center items-center  gap-10 font-mono font-bold pr-[50px]">
-            {navItem.map((items) => (
-              <Link href={items.link} className="scroll-smooth">
+            {navItem.map((items, index) => (
+              <Link href={items.link} key={index}  className="scroll-smooth">
                 {" "}
                 <li className="hover:w-[109px] hover:h-[80px] hover:text-center hover:justify-center hover:items-center hover:grid hover:p-3 text-2xl hover:pt-2 hover:rounded-md hover:bg-slate-200 scroll-smooth  hover:shadow-lg hover:shadow-slate-300">
                   {items.title}
